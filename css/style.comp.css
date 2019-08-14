@@ -1,0 +1,47 @@
+/* line 1, sass/nd/whiterester.scss */
+*, ::before, ::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+/* line 1, sass/typography/typo.scss */
+body {
+  font-size: 1.6rem; }
+
+/* line 4, sass/typography/typo.scss */
+a {
+  color: black;
+  text-decoration: none; }
+
+/* line 1, sass/sections/header.scss */
+.header_background {
+  background-image: url(/img/header.jpg);
+  height: 100vh;
+  background-position: center; }
+
+/* line 6, sass/sections/header.scss */
+.navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px; }
+  /* line 14, sass/sections/header.scss */
+  .navigation_logo-span {
+    font-family: 'Pacifico', cursive;
+    font-size: 3rem; }
+  /* line 23, sass/sections/header.scss */
+  .navigation-list {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.4rem; }
+    /* line 27, sass/sections/header.scss */
+    .navigation-list li {
+      margin: 15px; }
+      /* line 29, sass/sections/header.scss */
+      .navigation-list li:hover {
+        border-top: red 3px solid; }
+    /* line 33, sass/sections/header.scss */
+    .navigation-list ul {
+      display: flex;
+      cursor: pointer;
+      list-style: none; }
