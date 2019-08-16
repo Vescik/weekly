@@ -13,58 +13,20 @@ a {
   color: #00b1b1;
   text-decoration: none; }
 
-/* line 1, sass/sections/header.scss */
-.header_background {
-  background-image: url(img/header.jpg);
+/* line 8, sass/typography/typo.scss */
+.section-about {
   height: 100vh;
-  background-position: center;
-  background-size: cover; }
-
-/* line 7, sass/sections/header.scss */
-.navigation {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 30px; }
-  /* line 14, sass/sections/header.scss */
-  .navigation_logo {
-    margin-left: 6rem; }
-    /* line 16, sass/sections/header.scss */
-    .navigation_logo-span {
-      font-family: 'Pacifico', cursive;
-      font-size: 3.2rem; }
-  /* line 25, sass/sections/header.scss */
-  .navigation-list {
-    font-family: 'Raleway', sans-serif;
-    font-size: 1.3rem;
-    font-weight: 500; }
-    /* line 31, sass/sections/header.scss */
-    .navigation-list li {
-      margin: 15px; }
-      /* line 34, sass/sections/header.scss */
-      .navigation-list li:hover {
-        border-top: red 3px solid; }
-    /* line 38, sass/sections/header.scss */
-    .navigation-list ul {
-      display: flex;
-      cursor: pointer;
-      list-style: none; }
-
-/* line 47, sass/sections/header.scss */
-.testimonials {
-  width: 400px;
-  margin-left: 130px;
-  margin-top: 80px; }
-  /* line 51, sass/sections/header.scss */
-  .testimonials_header {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 800; }
-  /* line 55, sass/sections/header.scss */
-  .testimonials_quote {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 300;
-    font-size: 1.2rem;
-    padding: 20px 0 20px 0; }
+  background-color: #00b1b1; }
+  /* line 11, sass/typography/typo.scss */
+  .section-about_image {
+    transform: scale(0.7); }
+  /* line 14, sass/typography/typo.scss */
+  .section-about-testimonials_heading {
+    color: #fff;
+    font-size: 3.5rem; }
+  /* line 18, sass/typography/typo.scss */
+  .section-about-testimonials_paragraph {
+    color: #fff; }
 
 /* line 2, sass/components/btns.scss */
 .testimonials_btn {
@@ -77,3 +39,77 @@ a {
   font-family: 'Raleway', sans-serif;
   font-weight: 300;
   color: #fff; }
+  /* line 13, sass/components/btns.scss */
+  .testimonials_btn:hover {
+    background-color: #e4461a; }
+
+/* line 1, sass/sections/header.scss */
+.header_background {
+  background-image: url(img/header.jpg);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed; }
+
+/* line 8, sass/sections/header.scss */
+.navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 30px; }
+  /* line 16, sass/sections/header.scss */
+  .navigation_logo {
+    margin-left: 6rem; }
+    /* line 18, sass/sections/header.scss */
+    .navigation_logo-span {
+      font-family: 'Pacifico', cursive;
+      font-size: 3.2rem; }
+  /* line 27, sass/sections/header.scss */
+  .navigation-list {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500; }
+    /* line 33, sass/sections/header.scss */
+    .navigation-list li {
+      margin: 15px; }
+      /* line 36, sass/sections/header.scss */
+      .navigation-list li:hover {
+        border-top: red 3px solid; }
+    /* line 40, sass/sections/header.scss */
+    .navigation-list ul {
+      display: flex;
+      cursor: pointer;
+      list-style: none; }
+
+/* line 49, sass/sections/header.scss */
+.testimonials {
+  width: 400px;
+  margin-left: 130px;
+  margin-top: 80px; }
+  /* line 53, sass/sections/header.scss */
+  .testimonials_header {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800; }
+  /* line 57, sass/sections/header.scss */
+  .testimonials_quote {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 1.2rem;
+    padding: 20px 0 20px 0; }
+
+/* line 1, sass/sections/sectionAbout.scss */
+.section-about {
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+  align-items: center;
+  height: 100vh;
+  background-color: #00b1b1; }
+  /* line 10, sass/sections/sectionAbout.scss */
+  .section-about_image {
+    margin-left: 130px;
+    transform: scale(0.7); }
+  /* line 15, sass/sections/sectionAbout.scss */
+  .section-about-testimonials_paragraph {
+    text-align: justify;
+    width: 400px; }
